@@ -1,6 +1,8 @@
 torch
-torchvision
-torchaudio
 transformers
 sentence-transformers
+ollama
+sqlalchemy
+qdrant-client
+diskcache
 nltk
