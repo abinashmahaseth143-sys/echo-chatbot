@@ -41,16 +41,21 @@ A fully local, privacy-first empathetic chatbot with permanent memory.
 
 Everything runs 100 % on your laptop — no internet needed after setup.
 
-
+You should download ollama and install
 
 ## Installation & First-Time Setup (do this only once)
 
 1. **Install Ollama** (free local AI engine)  
    → Go to https://ollama.com → Download & install for Windows / macOS / Linux  
 
+   After installing ollama you need to open ollama 
 2. **Download the AI model** (only once, ~3 GB)    
-   Open Terminal / Command Prompt (or VS Code → Ctrl + `) and run:  
+     In the admin window,type ollama pull llama3.2:3b
+Wait for it to finish (5–30 minutes depending on internet). You'll see progress bars and finally "pull complete".
+Then open vs code terminal of echo-chatbot   
    ```bash
    ollama pull llama3.2:3b
 3. pip install -r requirements.txt
 4. python run_chatbot.py
+
+
