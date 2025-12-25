@@ -58,10 +58,6 @@ Then open vs code terminal of echo-chatbot
 3. pip install -r requirements.txt
 4. python run_chatbot.py
 
-(If emotion model fails to load) Fix Transformers conflict:
-   - Run: `pip uninstall tensorflow tensorflow-intel -y`
-   - Run: `pip install --upgrade "transformers[torch]" torch torchvision torchaudio`
-
 To exit type Bye
 
 
