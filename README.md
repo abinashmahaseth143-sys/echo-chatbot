@@ -58,4 +58,6 @@ Then open vs code terminal of echo-chatbot
 3. pip install -r requirements.txt
 4. python run_chatbot.py
 
+To exit type Bye
+
 
