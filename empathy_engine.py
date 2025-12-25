@@ -6,7 +6,7 @@ print("Loading emotion model... (this takes 10-30 seconds first time)")
 emotion_classifier = pipeline(
     "text-classification",
     model="j-hartmann/emotion-english-distilroberta-base",
-    return_all_scores=True
+    top_k=None
 )
 
 empathy_templates = {
